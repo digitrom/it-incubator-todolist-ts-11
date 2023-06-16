@@ -14,7 +14,7 @@ type AddItemFormPropsType = {
         let [title, setTitle] = useState("")
         let [error, setError] = useState<string | null>(null)
 
-    console.log('AddItemForm')
+    // console.log('AddItemForm')
 
     const addItem = () => {
         if (title.trim() !== "") {
